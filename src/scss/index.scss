@@ -4,6 +4,7 @@
 @import "toolbar";
 @import "formula";
 @import "table";
+@import "dashboard";
 
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
@@ -17,9 +18,13 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
-  background: lightgrey;
 }
 
 .excel {
   position: relative;
+  transition: all .5s;
+  color: #888;
+  height: 100%;
+  max-width: 100%;
+  font-size: .8rem;
 }

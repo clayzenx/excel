@@ -10,6 +10,8 @@ const isDev = !isProd;
 console.log('IS PROD', isProd);
 console.log('IS DEV', isDev);
 
+
+
 const filename = ext => isDev ? `bundle.${ext}` : `bunde.[hash].${ext}`;
 
 const jsLoaders = () => {
